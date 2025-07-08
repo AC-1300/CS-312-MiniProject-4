@@ -6,7 +6,7 @@ cd path\to\CS-312-MiniProject-4 backend folder (shift-rightclick -> copy as path
 npm install express cors body-parser
 npm install ejs
 node app.js
-http://localhost:3000
+http://localhost:8000
 
 Frontend:
 cd path\to\CS-312-MiniProject-4 frontend folder (shift-rightclick -> copy as path)
