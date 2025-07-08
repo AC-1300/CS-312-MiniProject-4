@@ -1,0 +1,19 @@
+<%- include("partials/header") %>
+
+<div class="container mt-4">
+  <h2>Edit Post</h2>
+  <form action="/post/<%= post.id %>/edit" method="POST" class="card p-3">
+    <input name="title" class="form-control my-2" value="<%= post.title %>" required />
+    <textarea name="content" class="form-control my-2" rows="4" required><%= post.content %></textarea>
+    <input name="author" class="form-control my-2" value="<%= post.author %>" required />
+    <select name="category" class="form-control my-2">
+      <option value="">Select Category</option>
+      <option value="Tech" <%= post.category === 'Tech' ? 'selected' : '' %>>Tech</option>
+      <option value="Lifestyle" <%= post.category === 'Lifestyle' ? 'selected' : '' %>>Lifestyle</option>
+      <option value="Education" <%= post.category === 'Education' ? 'selected' : '' %>>Education</option>
+    </select>
+    <button type="submit" class="btn btn-success">Save Changes</button>
+  </form>
+</div>
+
+<%- include("partials/footer") %>
