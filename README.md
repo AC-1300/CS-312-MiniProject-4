@@ -11,3 +11,4 @@ Frontend:
 cd path\to\CS-312-MiniProject-4 frontend folder (shift-rightclick -> copy as path)
 npm install
 npm start
+</pre>
