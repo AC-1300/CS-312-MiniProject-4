@@ -1,3 +1,4 @@
+<pre>
 CS-312 Mini-Project-4: Blog Web Application Frontend Integration
 
 Backend:
